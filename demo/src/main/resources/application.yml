@@ -4,3 +4,8 @@ azure:
     client-key:
     tenant-id:
     uri:
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
