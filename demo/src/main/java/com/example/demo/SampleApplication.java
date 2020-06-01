@@ -16,15 +16,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SampleApplication implements CommandLineRunner {
 
-    @Value("${yourSecretPropertyName9}")
-    private String mySecretProperty;
+    @Value("${yourSecretPropertyName}")
+    private String yourSecretPropertyName;
 
     public static void main(String[] args) {
         SpringApplication.run(SampleApplication.class, args);
     }
 
     public void run(String[] args) {
-        log.info("property yourSecretPropertyName9 in Azure Key Vault: {}", mySecretProperty);
+        log.info("property yourSecretPropertyName in Azure Key Vault: {}", yourSecretPropertyName);
     }
 
 }
