@@ -15,7 +15,7 @@
 
 	<properties>
 		<java.version>8</java.version>
-		<azure.version>2.3.2-SNAPSHOT</azure.version>
+		<azure.version>2.3.1</azure.version>
 		<spring-cloud.version>Greenwich.SR3</spring-cloud.version>
 	</properties>
 
